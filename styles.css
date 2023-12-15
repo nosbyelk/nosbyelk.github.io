@@ -1,53 +1,13 @@
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+/* Seu código do Figma para estilos globais */
+
+header {
+    /* Seu código do Figma para estilos do cabeçalho */
 }
 
-.landing-page {
-    background-color: #f2f2f2; /* Cinza moderno */
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+main {
+    /* Seu código do Figma para estilos do conteúdo principal */
 }
 
-.content {
-    text-align: center;
-}
-
-.name {
-    font-size: 3em;
-    color: #28a745; /* Verde eletrônico */
-    text-shadow: 2px 2px 4px #000;
-}
-
-.role {
-    font-size: 1.5em;
-    margin-top: 10px;
-    color: #333;
-}
-
-.experiences {
-    margin-top: 30px;
-}
-
-.experience {
-    font-size: 1.2em;
-    color: #333;
-    margin: 10px 0;
-    opacity: 0;
-    animation: fadeInUp 0.8s ease-in-out forwards;
-}
-
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+footer {
+    /* Seu código do Figma para estilos do rodapé */
 }
